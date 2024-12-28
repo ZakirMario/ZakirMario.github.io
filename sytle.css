@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    overflow: scroll;
+    display: block;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.judul {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.gambar {
+    width: 10%;
+    height: 10%;
+}
+
+h2 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+}
+
+.ringan {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.ringan2 {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    background-color: #16FF00;
+}
+
+.sedang {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.sedang2 {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    background-color: yellow;
+}
+
+.berat {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #000000;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.berat2 {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    background-color: red;
+}
+
+.siaga {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.siaga2 {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f4f4f9;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.CEKLIS {
+    transform: scale(1.2);
+}
+
+div {
+    font-size: large;
+}
+
+label {
+    font-size: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #56ff5c;
+    color: rgb(0, 0, 0);
+    border: none;
+    width: 20%;
+    height: 5%;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 40%;
+    font-size: large;
+}
+
+button:hover {
+    background-color: #ff0000;
+}
+
+input[type="checkbox"] {
+    transform: scale(2);
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#history {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-left: 40%;
+}
+
+#form-group {
+    margin-right: 0px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.credits {
+    font-size: 14px;
+    color: #777;
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .judul {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1cm;
+    }
+
+    .ringan, .ringan2, .sedang, .sedang2, .berat, .berat2, .siaga, .siaga2, #history {
+        width: 90%;
+        padding: 10px;
+    }
+
+    table, th, td {
+        width: 100%;
+    }
+
+    table th, table td {
+        text-align: left;
+        padding: 10px;
+    }
+
+    table td {
+        border: none;
+        border-bottom: 1px solid #ddd;
+    }
+
+    input[type="checkbox"] {
+        transform: scale(2);
+    }
+
+    input[type="text"] {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    button {
+        width: 100%;
+        margin-left: 0;
+        font-size: medium;
+    }
+
+    .form-group {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+
+    .credits {
+        font-size: 12px;
+    }
+}
